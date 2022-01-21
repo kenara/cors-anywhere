@@ -64,7 +64,7 @@ textarea {
 </div>
 
 <script>
-  var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+  var cors_api_url = 'https://unjobs-pdf.pages.dev/';
   function doCORSRequest(options, printResult) {
     var x = new XMLHttpRequest();
     x.open(options.method, cors_api_url + options.url);
@@ -75,9 +75,9 @@ textarea {
         (x.responseText || '')
       );
     };
-    if (/^POST/i.test(options.method)) {
-      x.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    }
+//    if (/^POST/i.test(options.method)) {
+      x.setRequestHeader('Content-Type', 'application/pdf');
+//    }
     x.send(options.data);
   }
 
