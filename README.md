@@ -41,7 +41,7 @@ Request examples:
 Live examples:
 
 * https://cors-anywhere.herokuapp.com/
-* https://robwu.nl/cors-anywhere.html - This demo shows how to use the API.
+* https://robwu.nl/cors-anywhere.html - This demo shows how to use the API
 
 ## Documentation
 
