@@ -75,9 +75,9 @@ textarea {
         (x.responseText || '')
       );
     };
-//    if (/^POST/i.test(options.method)) {
+    if (/^POST/i.test(options.method)) {
       x.setRequestHeader('Content-Type', 'application/pdf');
-//    }
+    }
     x.send(options.data);
   }
 
